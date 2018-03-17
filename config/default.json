@@ -1,0 +1,20 @@
+{
+    "appConfig": {
+      "dbConfig": {
+        "host": "192.168.98.133",
+        "port": 27017,
+        "dbName": "mydb"
+      },
+      "server":{
+          "host":"localhost",
+          "port":3005
+      },
+      "jwtConfig":{
+          "jwtTokenSecret":"!qaz2WSX#edc4RFV'"
+      },
+      "web3":{
+          "host":"127.0.0.1",
+          "port":"7545"
+      }
+    }
+  }
