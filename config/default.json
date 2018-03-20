@@ -1,7 +1,7 @@
 {
     "appConfig": {
       "dbConfig": {
-        "host": "192.168.98.133",
+        "host": "localhost",
         "port": 27017,
         "dbName": "mydb"
       },
@@ -14,7 +14,7 @@
       },
       "web3":{
           "host":"127.0.0.1",
-          "port":"7545"
+          "port":"8545"
       }
     }
   }

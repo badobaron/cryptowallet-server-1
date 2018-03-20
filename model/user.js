@@ -14,7 +14,7 @@ const userSchema = new Schema({
     username: { type: String,unique:true},
     userpwd: { type: String },
     ethAddress: { type: String },
-    ethParivateKey: { type: String },
+    ethPassword: { type: String },
     accountBlance:{type:Number }
 })
 

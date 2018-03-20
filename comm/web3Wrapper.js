@@ -19,11 +19,8 @@ var provider = new Web3.providers.HttpProvider(`http://${host}:${port}`)
 
 let web3 = new Web3(provider)
 
-web3.eth.getBlockNumber(function(error, result){
-    if(!error)
-        console.log('chain block number is:',JSON.stringify(result));
-    else
-        console.error(error);
+web3.eth.getBlockNumber().then(function (result) {
+    console.log('chain block number is:', result)
 })
-  
+
 module.exports = web3
