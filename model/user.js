@@ -15,6 +15,8 @@ const userSchema = new Schema({
     userpwd: { type: String },
     ethAddress: { type: String },
     ethPassword: { type: String },
+    btcAddress: { type: String },
+    btcPrivateKey: { type: String },
     accountBlance:{type:Number }
 })
 

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/babel-node ./bin/www --preset es2015, stage-3",
+    "start": "./node_modules/.bin/babel-node ./bin/www inspect --preset es2015, stage-3",
     "test": "./node_modules/.bin/babel-node web3 --preset es2015, stage-3",
     "build": "babel * -d dist --source-maps"
   },
@@ -17,6 +17,7 @@
     "express": "~4.15.5",
     "jade": "~1.11.0",
     "jwt-simple": "^0.5.1",
+    "kapitalize": "^0.3.3",
     "moment": "^2.20.1",
     "mongoose": "^5.0.10",
     "morgan": "~1.9.0",
